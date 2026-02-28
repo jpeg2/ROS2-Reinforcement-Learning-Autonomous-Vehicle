@@ -1,0 +1,10 @@
+# Inference configuration for F1Tenth ML model
+inference:
+  ros__parameters:
+    model_path: './models/ppo_f1tenth_final.zip'  # Update with actual model path
+    scan_topic: '/ego_racecar/scan'
+    odom_topic: '/ego_racecar/odom'
+    drive_topic: '/ego_racecar/drive'
+    max_range: 30.0
+    device: 'auto'  # 'auto', 'cuda', or 'cpu'
+

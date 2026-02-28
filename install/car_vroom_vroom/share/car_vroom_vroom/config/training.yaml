@@ -1,0 +1,11 @@
+# Training configuration for F1Tenth ML model
+training:
+  map_path: '/home/contranickted/sim_ws/src/f1tenth_gym_ros/maps/levine'
+  total_timesteps: 1000000
+  learning_rate: 0.0003
+  n_envs: 4
+  device: 'auto'  # 'auto', 'cuda', or 'cpu'
+  log_dir: './logs'
+  model_dir: './models'
+  save_freq: 50000
+

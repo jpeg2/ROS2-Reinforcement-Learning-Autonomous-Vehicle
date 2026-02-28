@@ -1,0 +1,4 @@
+[console_scripts]
+ml_inference = car_vroom_vroom.ml_inference:main
+ml_train = car_vroom_vroom.ml_train:main
+
